@@ -1,0 +1,75 @@
+.header{
+    display: flex;
+    
+}
+
+.plat{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.slidecont{
+    width: 100%;
+}
+
+.riders{
+    font-family: 'Courier New', Courier, monospace;
+    width: 20%;
+    text-align: center;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+.riders img{
+    border-radius: 45px;
+}
+.plat img{
+    height: 100px;
+}
+
+.riders{
+ width: 20%;
+}
+
+#myPlot{
+    width: 70%;
+    height: 70vh;
+}
+#myChart{
+    width: 50%;
+    height: 200px;
+}
+#myCh{
+    width: 50%;
+    height: 200px;
+}
+
+.slide{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 35px;
+    border: 2px solid grey;
+}
+
+.slc{
+    background-color: white;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    /* height: 500px; */
+}

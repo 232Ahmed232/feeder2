@@ -1,0 +1,16 @@
+<%- include('index.ejs') %>
+
+<div class="container">
+    <% for( let i = 0; i < 10; i++ ) { %>
+    
+    
+    <div class="cart">
+        <h3>Requsets No : <%= i %></h3>
+        <h4>Name : </h4>
+        <h4>Rider No : </h4>
+        <h4>Address: <%= loc %></h4>
+    </div>
+    <% } %>
+</div>
+
+<%- include('footer.ejs') %>
