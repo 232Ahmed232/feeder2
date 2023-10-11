@@ -3,6 +3,16 @@
     
 }
 
+
+
+.grapgh{
+    width: 600%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
 .plat{
     display: flex;
     width: 100%;
@@ -18,11 +28,12 @@
     width: 20%;
     text-align: center;
     background-color: white;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     border-radius: 25px;
+    box-shadow: 2px 2px 2px 2px grey;
 }
 .riders img{
-    border-radius: 45px;
+    border-radius: 100%;
 }
 .plat img{
     height: 100px;
@@ -33,8 +44,9 @@
 }
 
 #myPlot{
-    width: 70%;
-    height: 70vh;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 50vh;
 }
 #myChart{
     width: 50%;
